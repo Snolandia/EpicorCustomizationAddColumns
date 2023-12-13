@@ -1,3 +1,6 @@
+// With developer mode active, open the screen you want to customize. After the screen opens, go to Tools-> Customizations.
+// WIth the screen that opens, go to the Scipt Editor tab and do the following :
+
 // Ammend this class
 public class Script{
   //Add the BAQDataView to the class
