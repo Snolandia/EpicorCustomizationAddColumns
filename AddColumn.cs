@@ -68,7 +68,7 @@ public class Script{
       // Creates a generic unique name for the publisher. Publisher Names must be unique across epicor, as having multiple windows open with 
       // the same publisher name will cause issues. This is an easy way to prevent that from ever happening.
 			string publisherName = Guid.NewGuid().ToString();
-			oTrans.PublishColumnChange(publisherBinding, "publisherName");
+			oTrans.PublishColumnChange(publisherBinding, publisherName);
 			publisher = oTrans.GetPublisher(publisherBinding);
 		}
 
