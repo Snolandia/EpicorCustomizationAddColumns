@@ -63,7 +63,7 @@ public class Script{
 		string publisherBinding = "Misc.PartNum";
     // Creates a publisher, which will bind the baq and the "Misc.PartNum"
 		IPublisher publisher = oTrans.GetPublisher(publisherBinding);
-		if(pubJob==null)
+		if(publisher==null)
 		{	
       // Creates a generic unique name for the publisher. Publisher Names must be unique across epicor, as having multiple windows open with 
       // the same publisher name will cause issues. This is an easy way to prevent that from ever happening.
